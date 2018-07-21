@@ -1,8 +1,10 @@
-//Program calculates the sum of all odd numbers up to a limit
-//Limit is input into program
+//The user enters odd numbers to a limit
+//then program calculates the sum of all odd numbers up to a limit
+//The limit is then printed to screen
 #include<iostream>
 using namespace std;
 
+//Function calculates only odd numbers not even
 int sumCalculate(int num) {
 
 	int count = 0;
@@ -23,9 +25,9 @@ int main() {
 	cin >> num;
 
 	int total;
-	total = sumCalculate(num);
+	total = sumCalculate(num); //Finds sum of values
 	
-	cout << "\n\n the sum result is: " << total;
+	cout << "\n\n the sum result is: " << total; //prints output
 	
 	system("pause");
 	return 0;
